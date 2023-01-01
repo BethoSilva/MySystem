@@ -1,0 +1,25 @@
+.wrapper_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    color: purple;
+    height: 10vh auto;
+    margin-top: vh;
+
+}
+.sociais{
+    display: flex;
+    padding: 1em;
+    font-size: 15px;
+}
+.sociais div{
+    margin: .2em;
+    cursor: pointer;
+    transition: .5s;
+}
+.sociais div:hover{
+    color: red;
+}

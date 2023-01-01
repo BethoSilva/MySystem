@@ -1,0 +1,27 @@
+.icons{
+    width: 12em;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.iconList div{
+    width: auto;
+    margin: .3em;
+    padding: .5em;
+    height: auto;
+    cursor: pointer;
+}
+.iconList img{
+    width: 4em;
+}

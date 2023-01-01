@@ -1,0 +1,75 @@
+.wrapper_FormUsers{
+    width: auto;
+}
+.dados_pessoais, .endereco, .usuario{
+    background-color: rgba(128, 128, 128, 0.452);
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.wrapper_FormUsers label,input,select{
+    margin: 8px;
+    padding: 3px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.wrapper_FormUsers h3{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    margin: 3px;
+}
+.dados_pessoais input[id=id] {
+    width: 3.5em;
+}
+.dados_pessoais input[id=nome] {
+    width: 20em;
+}
+.dados_pessoais input[id=sobrenome] {
+    width: 45em;
+}
+.dados_pessoais input[id=email] {
+    width: 30em;
+}
+.dados_pessoais input[id=contato] {
+    width: 8em;
+}
+.dados_pessoais input[id=nascimento] {
+    width: 6em;
+}
+.dados_pessoais input[id=cpf] {
+    width: 9em;
+}
+
+
+.endereco input[id=rua]{
+    width: 45em;
+}
+.endereco input[id=numero]{
+    width: 4em;
+}
+.endereco input[id=cidade]{
+    width: 31em;
+}
+.endereco input[id=estado]{
+    width: 3em;
+}
+.endereco input[id=cep]{
+    width: 7em;
+}
+
+
+.usuario input[id=login]{
+    width: 15em;
+}
+.usuario select[id=perfil]{
+    width: 20em;
+}
+.usuario input[id=senha]{
+    width: 14.7em;
+}
+.usuario input[id=senhaRep]{
+    width: 14.7em;
+}
+

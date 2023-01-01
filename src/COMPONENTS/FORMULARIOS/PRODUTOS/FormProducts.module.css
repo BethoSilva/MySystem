@@ -1,0 +1,81 @@
+.wrapper_products{
+    width: auto;
+}
+.dados_produto, .end_fornecedor, .tributos{
+    background-color: rgba(128, 128, 128, 0.452);
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.wrapper_products label,input,select{
+    margin: 8px;
+    padding: 3px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.wrapper_products h3{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    margin: 3px;
+}
+.dados_produto input[id=id] {
+    width: 3.5em;
+}
+.dados_produto input[id=descricao] {
+    width: 40em;
+}
+.dados_produto input[id=tipo] {
+    width: 15em;
+}
+.dados_produto input[id=unidade] {
+    width: 3em;
+}
+.dados_produto input[id=categoria] {
+    width: 8em;
+}
+.dados_produto input[id=subcategoria] {
+    width: 8em;
+}
+.dados_produto input[id=marca] {
+    width: 9em;
+}
+
+.dados_produto input[id=modelo] {
+    width: 20em;
+}
+
+
+.end_fornecedor input[id=fornecedor]{
+    width: 45em;
+}
+
+.end_fornecedor input[id=rua]{
+    width: 45em;
+}
+.end_fornecedor input[id=numero]{
+    width: 4em;
+}
+.end_fornecedor input[id=cidade]{
+    width: 31em;
+}
+.end_fornecedor input[id=estado]{
+    width: 3em;
+}
+.end_fornecedor input[id=cep]{
+    width: 7em;
+}
+
+
+.tributos input[id=custo]{
+    width: 15em;
+}
+.tributos input[id=estoque]{
+    width: 10em;
+}
+.tributos input[id=venda]{
+    width: 14.7em;
+}
+
+

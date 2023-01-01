@@ -1,0 +1,8 @@
+.wrapper_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    align-items: flex-start;
+
+}

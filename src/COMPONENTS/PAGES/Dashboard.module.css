@@ -1,0 +1,14 @@
+.body_dash {
+  width: 110em;
+  height: 60em;
+  background-color: rgb(117, 115, 115);
+  display: flex;
+  align-items: center;
+}
+.card_dash {
+  width: 5em;
+  height: 5em;
+  background-color: rgba(255, 0, 0, 0.021);
+  margin: 1em;
+  cursor: pointer;
+}

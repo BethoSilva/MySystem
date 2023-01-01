@@ -1,0 +1,45 @@
+.wrapper_msg{
+    background-color: rgba(0, 0, 0, 0.672);
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+}
+.boxMessage{
+    background-color: aliceblue;
+    width:  auto;
+    height: auto;
+    padding: 4em;
+    border-radius: 1em;
+}
+.error{
+    background-color: rgb(200, 125, 125);
+    border: 5px solid rgb(137, 92, 92);
+}
+
+.success{
+    background-color: rgb(144, 144, 221);
+    border: 5px solid blue;
+}
+
+.confirm{
+    background-color: rgba(127, 131, 127, 0.64);
+    border: 5px solid grey;
+}
+.btn_msg{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_msg input{
+    width: 60%;
+    margin: .5em;
+    padding: .5em;
+    cursor: pointer;
+
+}

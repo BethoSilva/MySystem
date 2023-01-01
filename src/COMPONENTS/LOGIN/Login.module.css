@@ -1,0 +1,32 @@
+.wrapper_login{
+    position: absolute;
+    background-color: rgb(66, 24, 131);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.loginForm{
+    background-color: rgb(58, 69, 129);
+    padding: 1em;
+    width: 40%;
+    height: auto;
+}
+
+.loginForm input[type=text]{
+    width: 50%;
+    font-size: 20px;
+    padding: .3em;
+    border: none;
+}
+
+.loginForm input[type=submit]{
+    width: 50%;
+    font-size: 20px;
+    padding: .3em;
+    border: none;
+    cursor: pointer;
+    
+}
